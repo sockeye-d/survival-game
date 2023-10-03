@@ -1,0 +1,17 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1696299719
+icon.png::CompressedTexture2D::79373755086144464::1696277516::1696277681::1::::<><>::
+main.tscn::PackedScene::1823069582440854029::1696299714::0::1::::<><>::uid://cront4enapa5n::::res://map.tscn
+map.tscn::PackedScene::5995777778727369505::1696299699::0::1::::<><>::uid://e5tveg6xudk7::::res://assets/models/slime/slime.gltf<>uid://woku2n4buamy::::res://assets/models/island/island.gltf<>uid://b6h25n6p4julj::::res://assets/models/tree/tree.gltf
+::res://assets/::1696278301
+::res://assets/models/::1696294172
+::res://assets/models/island/::1696299719
+island.gltf::PackedScene::1573700173931973312::1696299320::1696299321::1::::<><>::uid://dv1rhyvuhab8r
+island_texture.png::CompressedTexture2D::8687947572437262887::1696294123::1696294123::1::::<><>::
+player.tscn::PackedScene::7672308827547961503::1696299765::0::1::::<><>::
+texture.png::CompressedTexture2D::7398664818254505241::1696294080::1696294086::1::::<><>::
+::res://assets/models/slime/::1696289564
+slime.gltf::PackedScene::343878052510739312::1696279035::1696279080::1::::<><>::uid://bqw1nj7umrf6p
+slime_material.material::StandardMaterial3D::3556460872692938121::1696289564::0::1::::<><>::
+::res://assets/models/tree/::1696299296
+tree.gltf::PackedScene::4578419144785515911::1696299296::1696299296::1::::<><>::

@@ -1,0 +1,9 @@
+res://assets/models/slime_Icosphere.res
+res://map.tscn
+res://assets/models/slime/slime_material.material
+res://assets/models/island/main.tscn
+res://assets/models/island/player.tscn
+res://player.gd
+res://main.tscn
+res://player.tscn
+res://main.gd

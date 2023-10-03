@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://dhkr2ndpwmdyd"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_rva3v"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_nlvjm"]
+radius = 0.4
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_lmpdf"]
+radius = 0.4
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_rva3v")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_nlvjm")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_lmpdf")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.881125, -0.359337)
+
+[node name="Label3D" type="Label3D" parent="Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, 0.315, -0.456)
+ignore_occlusion_culling = true
+pixel_size = 0.001
+billboard = 1
+no_depth_test = true
+render_priority = 127
+outline_render_priority = 126
+text = "FPS: 1000"
+horizontal_alignment = 2

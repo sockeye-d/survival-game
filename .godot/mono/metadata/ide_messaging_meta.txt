@@ -1,0 +1,2 @@
+﻿58999
+C:/Users/Innaias/AppData/Roaming/Godot/app_userdata/Godots/versions/Godot_v4_2-dev6_mono_win64-ef49d1d2/Godot_v4.2-dev6_mono_win64/Godot_v4.2-dev6_mono_win64.exe

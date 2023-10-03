@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://cront4enapa5n"]
+
+[ext_resource type="PackedScene" uid="uid://e5tveg6xudk7" path="res://assets/models/slime/slime.gltf" id="1_lqt41"]
+[ext_resource type="PackedScene" uid="uid://woku2n4buamy" path="res://assets/models/island/island.gltf" id="2_h6hmb"]
+[ext_resource type="PackedScene" uid="uid://b6h25n6p4julj" path="res://assets/models/tree/tree.gltf" id="3_syvf1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ikhpx"]
+resource_name = "Material.001"
+diffuse_mode = 2
+albedo_color = Color(0.316116, 0.626256, 0.221407, 1)
+roughness = 0.5
+subsurf_scatter_strength = 0.5
+disable_receive_shadows = true
+
+[node name="Map" type="Node3D"]
+
+[node name="slime" parent="." instance=ExtResource("1_lqt41")]
+transform = Transform3D(1.68, 0, 0, 0, 1.68, 0, 0, 0, 1.68, 1.38797, 0.156908, -2.48798)
+
+[node name="island" parent="." instance=ExtResource("2_h6hmb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.883954, -1.19209e-07, -4.39431)
+
+[node name="tree" parent="." instance=ExtResource("3_syvf1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25869, 4.76837e-07, -5.03192)
+
+[node name="Icosphere" parent="tree" index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_ikhpx")
+
+[editable path="tree"]
